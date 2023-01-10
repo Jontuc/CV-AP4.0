@@ -255,3 +255,29 @@ header .redes {
     background-color: #ff9d01;
     transform: translateX(-3px) translateY(-3px);
 }
+.footrs{
+    width: 310px;
+    margin: auto;
+    border-top: #fff 5px solid;
+    padding: 36px;
+}
+.footrs ion-icon{
+    color: #2a2a2c;
+    font-size: 36px;
+}
+.footrs ion-icon::before{
+    content: "";
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    background-color: #fff;
+    z-index: -1;
+}
+.rs{
+    width: 56px;
+    height: 56px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
